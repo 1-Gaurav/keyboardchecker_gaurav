@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid #fefefe; /* Light border for visibility */
+    padding: 20px; /* Increase padding for larger cells */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for better readability */
+    color: #000; /* Dark text for contrast */
+    font-size: 18px; /* Larger font size for better visibility */
+}
+
+.project {
+    background-image: url('pic6.jpg'); /* Background image */
+    background-repeat: no-repeat; /* No repeat */
+    background-position: center; /* Keep the image centered */
+    background-size: cover; /* Cover the entire container */
+    color: #fefefe; /* Light text color */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    padding: 40px; /* Add more padding for spacing */
+}
+
+.color {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    gap: 30px; /* Adds spacing between items */
+}
+
+/* Table container to control the width and center */
+.table-container {
+    width: 90%; /* Wider table */
+    max-width: 1200px; /* Limit table width to a reasonable size */
+    margin: 0 auto; /* Center the table */
+    margin-top: 40px; /* Space above the table */
+}
